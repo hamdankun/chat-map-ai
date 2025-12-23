@@ -1,4 +1,4 @@
-# LLM Maps - Interview Assessment
+# Chat Map AI
 
 A full-stack application that integrates a local LLM (Ollama) with Google Maps API to help users discover locations. Users can query the system naturally in plain language to find places to eat, visit, or explore, and view results on an interactive map.
 
@@ -137,7 +137,6 @@ Then open `http://localhost:5173` in your browser.
 │   └── prompts/
 │       └── plan-llmMapsMonorepo.prompt.md
 ├── README.md
-└── Tests.pdf                           # Assessment requirements
 ```
 
 ## API Endpoints
@@ -288,18 +287,6 @@ cd frontend && npm run build
 - Check `VITE_API_BASE_URL` in frontend `.env`
 - Verify no firewall blocking localhost:3001
 
-## Assessment Evaluation Focus
-
-This project will be assessed on:
-
-- ✓ Code quality and organization
-- ✓ Security best practices (API key management, rate limiting)
-- ✓ LLM integration patterns and error handling
-- ✓ API design and RESTful conventions
-- ✓ Frontend-backend communication
-- ✓ Error handling and user experience
-- ✓ Documentation and code comments
-
 ## Next Steps
 
 1. Set up Google Cloud project and obtain API key
@@ -308,10 +295,6 @@ This project will be assessed on:
 4. Run development servers
 5. Test end-to-end query flow
 6. Implement additional features as needed
-
-## License
-
-Assessment project for heyPico.ai
 
 ## References
 
